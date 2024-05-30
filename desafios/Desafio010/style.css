@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: rgb(168, 174, 168);
+    margin: 0;
+}
+
+header{
+    background: linear-gradient(0, #054810, #1b7129, #319943, #47c25c);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 0px 10px 0px;
+}
+
+nav{
+    text-align: left;
+    padding-top: 30px;
+
+}
+
+nav>a{
+    color: white;
+    text-decoration: none;
+    padding-left:15px ;
+    font-weight: bold;
+}
+
+nav>a:hover{
+    text-decoration: underline;
+}
+main{
+    background-color: #84e1ad
+}
+
+footer{
+    background-color: red;
+}
+
+section#historia{
+    background-color: rgb(255, 255, 255);
+    margin: 0em 6em;
+    padding: 15px;
+    text-indent:20px;
+    box-shadow: 0px 1px 9px 1px rgba(0, 0, 0, 0.381);
+    
+}
+
+h1{
+    margin: 0;
+}
+
+div#imgAnd{
+    text-align: center;
+}
+
+section#historia h1{
+    font-family: idroid;
+    font-weight: bold;
+    font-size: 30px;
+    color: #1B5D39;
+}
+
+section#historia h2{
+    font-family: idroid;
+    color: #1B5D39;
+    background: linear-gradient(90deg, #92ddb4, #a8e4c3,#beebd2,#d3f1e1,#e9f8f0,#fff)
+}
+
+section#historia p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.especial-link{
+    color: #26814f;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.especial{
+    color: #26814f;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.193);
+}
+
+section#video{
+    background-color: #1A5C38;
+    margin: 0em 6em;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 1px 9px 1px rgba(0, 0, 0, 0.381);
+}
+section#final{
+    background-color: white;
+    margin: 0em 6em;
+    padding: 15px;
+    border-radius: 0px 0px 15px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article.aprender{
+    background-color: #dcffec;
+    border-radius: 15px;
+    text-indent: 10px;
+    padding:0px 0px 5px 0px;
+   
+}
+
+article>aside{
+    background-color: #2FA866;
+    color: white;
+    border-radius: 15px 15px 0px 0px;
+    text-indent: 10px;
+    padding: 10px 0px;
+  
+}
+
+article.aprender > p{
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+div.lista{
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+}
+
+article{
+    padding-top: 10px;
+    text-align: justify;
+    text-indent: 10px;
+}
+
+footer{
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
