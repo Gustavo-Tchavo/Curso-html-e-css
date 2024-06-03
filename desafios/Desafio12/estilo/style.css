@@ -7,11 +7,15 @@
     padding: 0;
 }
 
+html, body{
+    min-height: 100vh;
+}
+
 header {
     text-align: center;
     color: white;
     background-color: black;
-    height: 200px;
+    
 }
 
 header>h1 {
@@ -29,7 +33,7 @@ section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 10px;
-    font-size: 4.5vw;
+    font-size: 3.5vw;
 }
 
 a.site-cordel {
