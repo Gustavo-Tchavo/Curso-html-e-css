@@ -24,6 +24,12 @@ header>p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 10px;
+}
+
 a.site-cordel {
     color: white;
     text-decoration: none;
@@ -56,12 +62,14 @@ p.poema {
     color: white;
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
+    width: 400px;
 }
 
 .imagem2 > p{
     color: white;
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
+    width: 400px;
 }
 
 footer{
