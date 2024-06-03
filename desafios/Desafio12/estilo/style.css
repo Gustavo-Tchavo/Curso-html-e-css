@@ -16,7 +16,7 @@ header {
 
 header>h1 {
     font-family: "Passion One", sans-serif;
-    font-size: 100px;
+    font-size: 10vw;
     padding-top: 50px;
 }
 
@@ -29,6 +29,7 @@ section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 10px;
+    font-size: 4.5vw;
 }
 
 a.site-cordel {
@@ -43,7 +44,6 @@ a.site-cordel:hover {
 
 p.poema {
     font-family: "Sriracha", cursive;
-    font-size: 30px;
     white-space: pre-line;
     padding: 30px;
 
@@ -63,14 +63,14 @@ p.poema {
     color: white;
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
-    width: 400px;
+    display: inline-block;
 }
 
 .imagem2 > p{
     color: white;
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
-    width: 400px;
+    display: inline-block;
 }
 
 footer{
