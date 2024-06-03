@@ -49,18 +49,21 @@ a.site-cordel:hover {
 p.poema {
     font-family: "Sriracha", cursive;
     white-space: pre-line;
-    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 
 }
 .imagem1{
     background-image: url('../imagens/background001.jpg');
      background-attachment: fixed;
      background-position: top right;
+     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.503);
 
 }
 .imagem2{
     background-image: url('../imagens/background002.jpg');
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.503);
 }
 
 .imagem1 > p{
